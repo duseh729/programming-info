@@ -1,0 +1,24 @@
+git init: 프로젝트 연결
+
+git status: 상태 확인
+
+git add 파일이름: 상태 추가
+
+git commit -m "메시지": 커밋
+
+git remote add 이름 저장소_주소: 원격저장소 등록
+등록한 이름을 사용하여 fetch/push/pull 등의 명령을 수행할 수 있다.
+
+git remote -v: 원격저장소 확인
+
+git push -u origin main: 원격저장소에 저장
+
+git branch: 브랜치 생성
+
+git config --global alias.st status: 명령어 단축
+
+#깃 처음 설정
+git config --global user.name "이름" : 이름 설정
+git config --global user.email "이메일" : 이메일 설정
+git config user.name: 이름 확인
+git config user.email: 이메일 확인
